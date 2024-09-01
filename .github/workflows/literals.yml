@@ -9,5 +9,5 @@ jobs:
         LITERAL_NULL: ${{null}}
         LITERAL_BOOLEAN: ${{true}}
         LITERAL_NUMBER: ${{1234}}
-        LITERAL_STRING: ${{test}}
+        LITERAL_STRING: ${{'test'}}
         LITERAL_OMIT_STRING: World
