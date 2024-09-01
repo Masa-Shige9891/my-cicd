@@ -1,8 +1,8 @@
-name: Conditions
+name: Status check function
 on: push
 jobs:
-  skip-or-run:
+  fail:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Hello"
-        if: ${{contains(github.run_id, '1')}}
+        if: ${{failure()}}
