@@ -1,5 +1,5 @@
 name: Comment
-on: push
+on: pull-request
 jobs:
   comment:
     runs-on: ubuntu-latest
