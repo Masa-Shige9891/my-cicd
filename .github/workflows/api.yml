@@ -4,7 +4,7 @@ jobs:
   comment:
     runs-on: ubuntu-latest
     permissions:
-      pull-requests: write-all
+      pull-requests: write
       contents: read
     steps:
       - uses: actions/checkout@v4
