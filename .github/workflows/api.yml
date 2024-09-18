@@ -1,10 +1,10 @@
 name: Comment
-on: pull_request
+on: push
 jobs:
   comment:
     runs-on: ubuntu-latest
     permissions:
-      pull-requests: write
+      pull-requests: write-all
       contents: read
     steps:
       - uses: actions/checkout@v4
