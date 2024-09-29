@@ -8,3 +8,7 @@ jobs:
           set -x
           date
           hostname
+      - run: |
+          echo "::group::Show env variables"
+            printenv
+            echo "::endgroup::"
